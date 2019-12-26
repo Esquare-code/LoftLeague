@@ -9,13 +9,14 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
 <style>
 p{
     color: black;
     text-align: left;
 }
-
-
 
 </style>
 </head>
@@ -77,7 +78,35 @@ p{
             <div class="row">
             <div class="col-sm-6">
     <h1 style="text-align: right; font-size: 19px; color: white; margin: 5px;">Upcoming matches</h1>
-    <img src="images/bg2.jpg" alt="img" style="width: 400px; height: 300px;"/>
+    
+    <div class="w3-container">
+        </div>
+      
+      <div class="w3-content w3-section" style="max-width:500px; ">
+        <img class="mySlides w3-animate-top" src="images/bg2.jpg" style="width:100%; height: 270px;">
+        <img class="mySlides w3-animate-bottom" src="images/bg.jpg" style="width:100%; height: 270px;">
+        <img class="mySlides w3-animate-top" src="images/bgg.jpg" style="width:100%; height: 270px;">
+        <img class="mySlides w3-animate-bottom" src="images/cricket-championship-concept_1302-17534.jpg" style="width:100%; height: 270px;">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2500);    
+      }
+      </script>
+
+
             </div>
             <div class="col-sm-6">
                 <h1 style="text-align: right; font-size: 19px; color: white; margin: 5px;">Winners board</h1>  
@@ -139,18 +168,18 @@ p{
     <div class="row" style="padding: 15px;">
         <div class="col-sm-3" style="background-color: white; padding: 5px; border-radius: 10px;">
            <div >
-               <a  href=""><p class="title"><b>BPL T20</b> </p> </a>
+               <a  href="cricket1.html"><p class="title"><b>BPL T20</b> </p> </a>
                <div class="col-sm-3" >
-                <a href=""><img src="images/cuw.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                <a href="cricket1.html"><img src="images/cuw.png" alt=""  style="width: 60px; height: 60px;"/></a>
           
                </div>
                <div class="col-sm-6">
-<a class="matchtitle" href=""><b>CUW Vs DHP</b></a>
-                <a  href=""><p class="hours">2hrs left</p></a>
+<a class="matchtitle" href="cricket1.html"><b>CUW Vs DHP</b></a>
+                <a  href="cricket1.html"><p class="hours">2hrs left</p></a>
             </div>
             <div class="col-sm-3">
 
-                <a ><img  src="images/DHP-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                <a href="cricket1.html" ><img  src="images/DHP-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
                </div>
            
            </div>
@@ -160,18 +189,18 @@ p{
         </div>
           <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
            <div >
-               <a  href=""><p class="title"><b>Big Bash League</b> </p> </a>
+               <a  href="cricket2.html"><p class="title"><b>Big Bash League</b> </p> </a>
                <div class="col-sm-3" >
-                <a href=""><img src="images/str.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                <a href="cricket2.html"><img src="images/str.png" alt=""  style="width: 60px; height: 60px;"/></a>
           
                </div>
                <div class="col-sm-6">
-<a class="matchtitle" href=""><b>STR Vs SEO</b></a>
-                <a  href=""><p class="hours">2hrs left</p></a>
+<a class="matchtitle" href="cricket2.html"><b>STR Vs SEO</b></a>
+                <a  href="cricket2.html"><p class="hours">2hrs left</p></a>
             </div>
             <div class="col-sm-3">
                 
-                <a ><img  src="images/seo.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                <a href="cricket2.html"><img  src="images/seo.png" alt=""  style="width: 60px; height: 60px;" /></a>
                </div>
            
            </div>
@@ -181,18 +210,18 @@ p{
         </div>
         <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
             <div >
-                <a  href=""><p class="title"><b>BPL T20</b> </p> </a>
+                <a  href="cricket3.html"><p class="title"><b>BPL T20</b> </p> </a>
                 <div class="col-sm-3" >
-                 <a href=""><img src="images/KHT-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                 <a href="cricket3.html"><img src="images/KHT-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
            
                 </div>
                 <div class="col-sm-6">
- <a class="matchtitle" href=""><b>KHT Vs RAR</b></a>
-                 <a  href=""><p class="hours">2hrs left</p></a>
+ <a class="matchtitle" href="cricket3.html"><b>KHT Vs RAR</b></a>
+                 <a  href="cricket3.html"><p class="hours">2hrs left</p></a>
              </div>
              <div class="col-sm-3">
                  
-                 <a ><img  src="images/RAR-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                 <a href="cricket3.html" ><img  src="images/RAR-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
                 </div>
             
             </div>
@@ -207,18 +236,18 @@ p{
      <div class="row" style="padding: 15px;">
         <div class="col-sm-3" style="background-color: white; padding: 5px; border-radius: 10px;">
            <div >
-               <a  href=""><p class="title"><b>Big Bash League</b> </p> </a>
+               <a  href="cricket4.html"><p class="title"><b>Big Bash League</b> </p> </a>
                <div class="col-sm-3" >
-                <a href=""><img src="images/hur.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                <a href="cricket4.html"><img src="images/hur.png" alt=""  style="width: 60px; height: 60px;"/></a>
           
                </div>
                <div class="col-sm-6">
-<a class="matchtitle" href=""><b>HUR Vs REN</b></a>
-                <a  href=""><p class="hours">2hrs left</p></a>
+<a class="matchtitle" href="cricket4.html"><b>HUR Vs REN</b></a>
+                <a  href="cricket4.html"><p class="hours">2hrs left</p></a>
             </div>
             <div class="col-sm-3">
 
-                <a ><img  src="images/ren.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                <a href="cricket4.html" ><img  src="images/ren.png" alt=""  style="width: 60px; height: 60px;" /></a>
                </div>
            
            </div>
@@ -228,18 +257,18 @@ p{
         </div>
           <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
            <div >
-               <a  href=""><p class="title"><b>BPL T20</b> </p> </a>
+               <a  href="cricket5.html"><p class="title"><b>BPL T20</b> </p> </a>
                <div class="col-sm-3" >
-                <a href=""><img src="images/DHP-CR1@2x (1).png" alt=""  style="width: 60px; height: 60px;"/></a>
+                <a href="cricket5.html"><img src="images/DHP-CR1@2x (1).png" alt=""  style="width: 60px; height: 60px;"/></a>
           
                </div>
                <div class="col-sm-6">
-<a class="matchtitle" href=""><b>DHP Vs SYL</b></a>
-                <a  href=""><p class="hours">2hrs left</p></a>
+<a class="matchtitle" href="cricket5.html"><b>DHP Vs SYL</b></a>
+                <a  href="cricket5.html"><p class="hours">2hrs left</p></a>
             </div>
             <div class="col-sm-3">
                 
-                <a ><img  src="images/SYL-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                <a href="cricket5.html"><img  src="images/SYL-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
                </div>
            
            </div>
@@ -249,18 +278,18 @@ p{
         </div>
         <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
             <div >
-                <a  href=""><p class="title"><b>Australia vs New zealand</b> </p> </a>
+                <a  href="cricket6.html"><p class="title"><b>Australia vs New zealand</b> </p> </a>
                 <div class="col-sm-3" >
-                 <a href=""><img src="images/AUS-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                 <a href="cricket6.html"><img src="images/AUS-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
            
                 </div>
                 <div class="col-sm-6">
- <a class="matchtitle" href=""><b>AUZ Vs NZ</b></a>
-                 <a  href=""><p class="hours">2hrs left</p></a>
+ <a class="matchtitle" href="cricket6.html"><b>AUZ Vs NZ</b></a>
+                 <a  href="cricket6.html"><p class="hours">2hrs left</p></a>
              </div>
              <div class="col-sm-3">
                  
-                 <a ><img  src="images/NZ-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                 <a href="cricket6.html"><img  src="images/NZ-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
                 </div>
             
             </div>
@@ -654,8 +683,81 @@ p{
 
 </div>
 <!-----HOW TO PLAY END--><br><br>
+
+
+<!-----feed back form  start-->
+
+<div class="container"  style="background-image: url('images/bbg.jpg'); background-size: cover; border-radius: 20px;"><br>
+    <h2 style="color: white;"><b>Give us a feedback</b></h2><br>
+    <section id="contact-form" >
+      
+        <form id="contact" name="contact" accept-charset="utf-8">
+          <label><span style="color: white; font-size: 16px;">Name</span><input name="name" type="text" placeholder="Name"/></label>
+          <label><span style="color: white; font-size: 16px;">Email</span><input name="email" type="email" placeholder="Email"/></label>
+          <label><span style="color: white; font-size: 16px;">Comments</span><textarea name="message" placeholder="Type your feedback here.."></textarea></label>
+          <input name="submit" type="submit" value="Send"/>
+        </form>
+        <aside>
+       
+     </aside>
+      </section>
+      <script>
+      var form = $('#contact'),
+    submit = form.find('[name="submit"]');
+
+form.on('submit', function(e) {
+  e.preventDefault();
+  
+  // avoid spamming buttons
+  if (submit.attr('value') !== 'Send')
+    return;
+  
+  var valid = true;
+  form.find('input, textarea').removeClass('invalid').each(function() {
+    if (!this.value) {
+      $(this).addClass('invalid');
+      valid = false;
+    }
+  });
+  
+  if (!valid) {
+    form.animate({left: '-3em'},  50)
+        .animate({left:  '3em'}, 100)
+        .animate({left:    '0'},  50);
+  } else {
+    submit.attr('value', 'Sending...')
+          .css({boxShadow: '0 0 200em 200em rgba(225, 225, 225, 0.6)',
+                backgroundColor: '#ccc'});
+    // simulate AJAX response
+    setTimeout(function() {
+      // step 1: slide labels and inputs
+      // when AJAX responds with success
+      // no animation for AJAX failure yet
+      form.find('label')
+          .animate({left: '100%'}, 500)
+          .animate({opacity: '0'}, 500);
+    }, 1000);
+    setTimeout(function() {
+      // step 2: show thank you message after step 1
+      submit.attr('value', 'Thank you :)')
+            .css({boxShadow: 'none'});
+    }, 2000);
+    setTimeout(function() {
+      // step 3: reset
+      form.find('input, textarea').val('');
+      form.find('label')
+          .css({left: '0'})
+          .animate({opacity: '1'}, 500);
+      submit.attr('value', 'Send')
+            .css({backgroundColor: ''});
+    }, 4000);
+  }
+});
+      </script>
+</div>
+<!----feed back form end --><br><br>
 <!----footer start-->
-<div class="container" style="background-color: white; height: 200px; border-radius: 20px;" >
+<div class="container" style="background-color: white; height: auto; border-radius: 20px;" >
 <div class="row">
     <div class="col-sm-3"><br>
      <img src="images/l1.png" alt="logo" style="width: 240px; height: 180px;"/>
