@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 <style>
+
 p{
     color: black;
     text-align: left;
@@ -73,44 +74,34 @@ p{
       </div>
       <br>
 <div class="row">
-    <div class="col-sm-9" style="background-color: rgb(28, 132, 250); border-radius: 20px;">
-        
-            <div class="row">
-            <div class="col-sm-6">
-    <h1 style="text-align: right; font-size: 19px; color: white; margin: 5px;">Upcoming matches</h1>
-    
-    <div class="w3-container">
+    <div class="col-sm-10" style="background-color: rgb(28, 132, 250); border-radius: 20px;">
+        <div class="row">
+            <h1 style="color: white;"><b>Mega Contest Winners</b></h1>
         </div>
-      
-      <div class="w3-content w3-section" style="max-width:500px; ">
-        <img class="mySlides w3-animate-top" src="images/bg2.jpg" style="width:100%; height: 270px;">
-        <img class="mySlides w3-animate-bottom" src="images/bg.jpg" style="width:100%; height: 270px;">
-        <img class="mySlides w3-animate-top" src="images/bgg.jpg" style="width:100%; height: 270px;">
-        <img class="mySlides w3-animate-bottom" src="images/cricket-championship-concept_1302-17534.jpg" style="width:100%; height: 270px;">
-      </div>
-      
-      <script>
-      var myIndex = 0;
-      carousel();
-      
-      function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";  
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
-        setTimeout(carousel, 2500);    
-      }
-      </script>
-
+            <div class="row">
+            <div class="col-sm-4">
+    <h1 style="text-align: left; font-size: 19px; color: white; margin: 5px;">Winnings
+        ₹25 Lakhs</h1>
+    
+  
+    <img src="images/bg3.png" alt="img" style="width: 300px; height: 300px; border-radius: 20px; " />
 
             </div>
-            <div class="col-sm-6">
-                <h1 style="text-align: right; font-size: 19px; color: white; margin: 5px;">Winners board</h1>  
-                <img src="images/bg3.png" alt="img" style="width: 400px; height: 300px;" />
+
+            <div class="col-sm-4">
+                <h1 style="text-align: left; font-size: 19px; color: white; margin: 5px;">Winnings
+                    ₹20 Lakhs</h1>
+                <img src="images/bg3.png" alt="img" style="width: 300px; height: 300px; border-radius: 20px;" />
+              
+            
+            
+                        </div>
+
+
+            <div class="col-sm-4">
+                <h1 style="text-align: left; font-size: 19px; color: white; margin: 5px;">Winnings
+                    ₹12.5 Lakhs</h1>  
+                <img src="images/bg3.png" alt="img" style="width: 300px; height: 300px; border-radius: 20px;" />
             </div>
             </div><br>
             <div class="row" style="background-color: rgb(238, 236, 236); border-radius: 20px;"><br>
@@ -139,28 +130,79 @@ p{
         <a href="#" class="button"><b>Football</b></a><br><br><br>
         <a href="#" class="button"><b>Baseball</b></a><br><br><br>
         <a href="#" class="button"><b>Basketball</b></a><br><br><br>
+   
       </div>
 </div>
      
 </div><br><br>
 <!-------home page slider end-->
+<!-- matches slider start -->
+
+
+
+<!-- matches slider ends -->
+
+
 
 
 <!------matches start-->
 
-<div class="container" style="background-color: rgb(214, 210, 210); border-radius: 20px;"><br>
+<div class="container" style="background-color: rgb(233, 233, 233); border-radius: 20px;"><br>
     <h3 style="text-align: center;"><b>Upcoming Matches</b></h3>
-    
+ <div class="row">
+     <div class="col-sm-12">
+        <div class="w3-container">
+        </div>
+      
+      <div class="w3-content w3-section" style="max-width:1200px; ">
+        <img class="mySlides w3-animate-top" src="images/bg2.jpg" style="width:100%; height: 370px; border-radius: 20px; ">
+        <img class="mySlides w3-animate-bottom" src="images/basketball.jpg" style="width:100%; height: 370px; border-radius: 20px;">
+        <img class="mySlides w3-animate-top" src="images/bgg.jpg" style="width:100%; height: 370px; border-radius: 20px;">
+        <img class="mySlides w3-animate-bottom" src="images/kabadi.jpg" style="width:100%; height: 370px; border-radius: 20px;">
+      </div>
+                                                                           
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2500);    
+      }
+      </script>
+     </div>
+  
+
+ </div>
 <div class="container">
     
-    <ul class="nav nav-tabs">
-      <li class="active"><a data-toggle="tab" href="#home"><b>Cricket</b></a></li>
-      <li><a data-toggle="tab" href="#menu1"><b>Baseball</b></a></li>
-      <li><a data-toggle="tab" href="#menu2"><b>Football</b></a></li>
-      <li><a data-toggle="tab" href="#menu3"><b>Kabaddi</b></a></li>
-   
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="active"><a data-toggle="tab" href="#home"><b style="color: black;">Cricket</b></a></li>
+      <li><a data-toggle="tab" href="#menu1"><b style="color: black;">Baseball</b></a></li>
+      <li><a data-toggle="tab" href="#menu2"><b style="color: black;">Football</b></a></li>
+      <li><a data-toggle="tab" href="#menu3"><b style="color: black;">Kabaddi</b></a></li>
+      <li class="dropdown" id="combo">
+        <a style="background-color: white;" class="dropdown-toggle" data-toggle="dropdown" href="" style="color: black;">All Series&nbsp;&nbsp;<b class="caret"></b></a>
+        <ul class="dropdown-menu">
+            <li><a href="#home" role="tab" data-toggle="tab" >All Series</a></li>
+            <li><a href="#jquerytab" role="tab" data-toggle="tab">BPL T20</a></li>
+            <li><a href="#bootstab" role="tab" data-toggle="tab">Big Bash League</a></li>
+            <li><a href="#htmltab" role="tab" data-toggle="tab">Australia vs Newzland</a></li>
+        </ul>
+</li>  
     </ul>
- 
+   
+
+  
+        
+    
     <div class="tab-content">
       <div id="home" class="tab-pane fade in active">
 
@@ -178,7 +220,6 @@ p{
                 <a  href="cricket1.html"><p class="hours">2hrs left</p></a>
             </div>
             <div class="col-sm-3">
-
                 <a href="cricket1.html" ><img  src="images/DHP-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
                </div>
            
@@ -472,6 +513,194 @@ p{
       </div>
         <!-----------------------------------------------kabaddi tab end-------------------------------->
     
+        <div class="tab-pane" id="jquerytab">
+
+  <!---row 1 start-->  <br>
+  <div class="row" style="padding: 15px;">
+    <div class="col-sm-3" style="background-color: white; padding: 5px; border-radius: 10px;">
+       <div >
+           <a  href="cricket1.html"><p class="title"><b>BPL T20</b> </p> </a>
+           <div class="col-sm-3" >
+            <a href="cricket1.html"><img src="images/cuw.png" alt=""  style="width: 60px; height: 60px;"/></a>
+      
+           </div>
+           <div class="col-sm-6">
+<a class="matchtitle" href="cricket1.html"><b>CUW Vs DHP</b></a>
+            <a  href="cricket1.html"><p class="hours">2hrs left</p></a>
+        </div>
+        <div class="col-sm-3">
+
+            <a href="cricket1.html" ><img  src="images/DHP-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+           </div>
+       
+       </div>
+    </div>
+    <div class="col-sm-1">
+        
+    </div>
+    <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
+        <div >
+            <a  href="cricket5.html"><p class="title"><b>BPL T20</b> </p> </a>
+            <div class="col-sm-3" >
+             <a href="cricket5.html"><img src="images/DHP-CR1@2x (1).png" alt=""  style="width: 60px; height: 60px;"/></a>
+       
+            </div>
+            <div class="col-sm-6">
+ <a class="matchtitle" href="cricket5.html"><b>DHP Vs SYL</b></a>
+             <a  href="cricket5.html"><p class="hours">2hrs left</p></a>
+         </div>
+         <div class="col-sm-3">
+             
+             <a href="cricket5.html"><img  src="images/SYL-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+            </div>
+        
+        </div>
+     </div>
+    <div class="col-sm-1">
+
+    </div>
+    <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
+        <div >
+            <a  href="cricket3.html"><p class="title"><b>BPL T20</b> </p> </a>
+            <div class="col-sm-3" >
+             <a href="cricket3.html"><img src="images/KHT-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
+       
+            </div>
+            <div class="col-sm-6">
+<a class="matchtitle" href="cricket3.html"><b>KHT Vs RAR</b></a>
+             <a  href="cricket3.html"><p class="hours">2hrs left</p></a>
+         </div>
+         <div class="col-sm-3">
+             
+             <a href="cricket3.html" ><img  src="images/RAR-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+            </div>
+        
+        </div>
+     </div>
+     <div class="col-sm-1">
+        
+    </div>
+ 
+</div>
+<!-----row 1 end--><br>
+
+
+<br> <p style="text-align: center;"> <a  href="leagues.html" class="button2"><b>View More Matches</b></a></p>
+<br>
+
+<!----------BPL T20 tab ends-->
+        
+        </div>
+        <div class="tab-pane" id="bootstab">
+           
+  <!---row 1 start-->  <br>
+  <div class="row" style="padding: 15px;">
+    <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
+        <div >
+            <a  href="cricket2.html"><p class="title"><b>Big Bash League</b> </p> </a>
+            <div class="col-sm-3" >
+             <a href="cricket2.html"><img src="images/str.png" alt=""  style="width: 60px; height: 60px;"/></a>
+       
+            </div>
+            <div class="col-sm-6">
+<a class="matchtitle" href="cricket2.html"><b>STR Vs SEO</b></a>
+             <a  href="cricket2.html"><p class="hours">2hrs left</p></a>
+         </div>
+         <div class="col-sm-3">
+             
+             <a href="cricket2.html"><img  src="images/seo.png" alt=""  style="width: 60px; height: 60px;" /></a>
+            </div>
+        
+        </div>
+     </div>
+    <div class="col-sm-1">
+        
+    </div>
+    <div class="col-sm-3" style="background-color: white; padding: 5px; border-radius: 10px;">
+        <div >
+            <a  href="cricket4.html"><p class="title"><b>Big Bash League</b> </p> </a>
+            <div class="col-sm-3" >
+             <a href="cricket4.html"><img src="images/hur.png" alt=""  style="width: 60px; height: 60px;"/></a>
+       
+            </div>
+            <div class="col-sm-6">
+<a class="matchtitle" href="cricket4.html"><b>HUR Vs REN</b></a>
+             <a  href="cricket4.html"><p class="hours">2hrs left</p></a>
+         </div>
+         <div class="col-sm-3">
+
+             <a href="cricket4.html" ><img  src="images/ren.png" alt=""  style="width: 60px; height: 60px;" /></a>
+            </div>
+        
+        </div>
+     </div>
+    <div class="col-sm-1">
+
+    </div>
+  <!---one div we can add here-->
+     <div class="col-sm-1">
+        
+    </div>
+ 
+</div>
+<!-----row 1 end--><br>
+
+
+<br> <p style="text-align: center;"> <a  href="leagues.html" class="button2"><b>View More Matches</b></a></p>
+<br>
+
+<!----------BPL T20 tab ends-->
+     
+        </div>
+
+
+
+
+
+        <div class="tab-pane" id="htmltab">
+            <div class="row" style="padding: 15px;">
+                <div class="col-sm-3" style="background-color: white; padding: 5px;  border-radius: 10px;">
+                    <div >
+                        <a  href="cricket6.html"><p class="title"><b>Australia vs New zealand</b> </p> </a>
+                        <div class="col-sm-3" >
+                         <a href="cricket6.html"><img src="images/AUS-CR1@2x.png" alt=""  style="width: 60px; height: 60px;"/></a>
+                   
+                        </div>
+                        <div class="col-sm-6">
+         <a class="matchtitle" href="cricket6.html"><b>AUZ Vs NZ</b></a>
+                         <a  href="cricket6.html"><p class="hours">2hrs left</p></a>
+                     </div>
+                     <div class="col-sm-3">
+                         
+                         <a href="cricket6.html"><img  src="images/NZ-CR1@2x.png" alt=""  style="width: 60px; height: 60px;" /></a>
+                        </div>
+                    
+                    </div>
+                 </div>
+                <div class="col-sm-1">
+                    
+                </div>
+            
+                <div class="col-sm-1">
+        
+                </div>
+         
+                 <div class="col-sm-1">
+                    
+                </div>
+             
+            </div>
+            <!-----row 1 end--><br>
+         
+         
+            <br> <p style="text-align: center;"> <a  href="leagues.html" class="button2"><b>View More Matches</b></a></p>
+            <br>
+         
+         
+        
+        </div>  
+        <!------aus vs newzland tab end-->
+        
     </div>
   </div>
 
