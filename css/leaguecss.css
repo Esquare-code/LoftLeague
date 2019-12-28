@@ -14,7 +14,7 @@
   overflow: hidden;
   background-color: rgb(86, 186, 245);
   position: fixed;
-  
+ 
   bottom: 0px;
   width: auto;
 }
@@ -24,7 +24,7 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 39px;
+  padding: 14px 35px;
   text-decoration: none;
   font-size: 17px;
 }
